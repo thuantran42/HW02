@@ -3,9 +3,11 @@
 <body>
 
 <h1>Welcome to my home page!</h1>
-<p>Some text.</p>
-<p>Some more text.</p>
-<?php require_once 'index.php';?>
+
+<?php   
+define('__ROOT__', dirname(dirname(__FILE__)));
+require_once(__ROOT__.'header.php');
+?>
 
 </body>
 </html>
