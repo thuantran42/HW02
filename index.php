@@ -14,6 +14,11 @@ Name: <input type="text" name="name"><br>
 E-mail: <input type="text" name="email"><br>
 <input type="submit">
 </form>
+   
+<?php   
+define('__ROOT__', dirname(dirname(__FILE__)));
+require_once(__ROOT__.'header.php');
+?>
 
 
     
