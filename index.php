@@ -1,10 +1,13 @@
 <!doctype html>
 <html>
-  <body>
-
+  <head>
+    
      Heading <?php require_once('header.php');?>
- 
+    
+  </head>
   
+  <body>
+ 
 <form action="handlepost.php" method="post">
 Name: <input type="text" name="name"><br>
 E-mail: <input type="text" name="email"><br>
