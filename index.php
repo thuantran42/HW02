@@ -3,13 +3,14 @@
   <head>
     
      Heading <?php require_once('header.php');?>
-    
+    <?php
     function myHello() 
     {
      echo "Wee woo wee woo";
     }
     
     myHello();
+    ?>
     
   </head>
   
