@@ -8,9 +8,10 @@
     {
      echo "Wee woo wee woo";
     }
+    ?>
     
     myHello();
-    ?>
+   
     
   </head>
   
