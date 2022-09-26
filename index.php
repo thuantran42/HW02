@@ -1,6 +1,4 @@
-<!doctype html>
-<html>
-  <head>
+
     
      Heading <?php require_once('header.php');?>
     <?php
@@ -13,9 +11,9 @@
     myHello();
     ?>
     
-  </head>
+
   
-  <body>
+
  
 <form action="handlepost.php" method="post">
 Name: <input type="text" name="name"><br>
