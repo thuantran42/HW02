@@ -4,6 +4,13 @@
     
      Heading <?php require_once('header.php');?>
     
+    function myHello() 
+    {
+     echo "Wee woo wee woo";
+    }
+    
+    myHello();
+    
   </head>
   
   <body>
